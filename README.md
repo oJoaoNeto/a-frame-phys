@@ -18,8 +18,3 @@ Este projeto utiliza a biblioteca [A-Frame](https://aframe.io) para criar uma ce
 ### 3. Implementação do Personagem
 - Durante o desenvolvimento, tivemos dificuldades na modelagem do personagem para o jogo. Isso impediu sua inclusão no código final.
 
-## Como Rodar o Projeto
-1. Certifique-se de usar uma versão do A-Frame compatível com a biblioteca `aframe-physics-system` (recomendado: versão 1.1.0).
-2. Baixe ou clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/fisica-barco-personagem.git
