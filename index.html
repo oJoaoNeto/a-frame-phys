@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>fisica do barco e personagem</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="libs/aframe-physics-system.min.js"></script>
+    <!-- codigo para mudar a cor do objeto  -->
+    <script src="libs/change-color.js">
+    </script>
+  </head>
+  <body>
+    <a-scene physics>
+      <a-camera>
+        <a-cursor></a-cursor>
+      </a-camera>
+      <!-- chao -->
+      <a-plane static-body 
+      rotation="-90 0 0" 
+      scale="15 15 15" 
+      color="grey"></a-plane>
+      
+
+       <!-- barco em si -->
+      <a-entity gltf-model="assets\Caiaque 1.0.glb" 
+       dynamic-body="shape: auto" 
+        color-model="#ADD8E6" 
+        position="0 3 -1"
+      scale="1 1 1" ></a-entity>
+
+
+      <!-- esferas para testar a fisica -->
+      <a-sphere dynamic-body
+       position="0 10 -1.5"
+        radius="0.2"
+        color="blue"></a-sphere>
+        <a-sphere dynamic-body 
+        position="-0.5 3 -1" 
+        radius="0.2" 
+        color="purple"></a-sphere> 
+    </a-scene>
+  </body>
+</html>
