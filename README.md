@@ -17,4 +17,5 @@ Este projeto utiliza a biblioteca [A-Frame](https://aframe.io) para criar uma ce
 
 ### 3. Implementação do Personagem
 - Durante o desenvolvimento, tivemos dificuldades na modelagem do personagem para o jogo. Isso impediu sua inclusão no código final.
-
+### 4. link para o pdf com o relatorio completo
+  -[pdf](assets/Relatório.pdf)
